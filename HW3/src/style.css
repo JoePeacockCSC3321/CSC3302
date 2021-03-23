@@ -1,0 +1,18 @@
+div.body {
+	text-align: center;
+	border-style: outset;
+	padding: 100px;
+	margin-left: 550px;
+	margin-right: 550px;
+	background-color: #ddccff;
+	font-family: Lucida Console;
+}
+
+div.navlist {
+	text-align: center;
+	border-style: outset;
+	margin-left: 550px;
+	margin-right: 550px;
+	background-color: #ddccff;
+	font-family: Franklin Gothic Medium;
+}

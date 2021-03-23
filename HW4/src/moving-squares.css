@@ -1,0 +1,51 @@
+body {
+	border-style: solid;
+	width: 800px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.oddBlock{
+	background-color: #0066ff;
+	width: 50;
+	height: 50;
+	border-style: solid;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	transition: width 2s, height 2s, transform 2s;
+	transition-timing-function: ease;
+}
+
+
+.EvenBlock{
+	background-color: #660066;
+	width: 50;
+	height: 50;
+	border-style: solid;
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	transition: width 2s, height 2s, transform 2s;
+	transition-timing-function: ease;
+	
+}
+.EvenBlock:hover{
+
+	transform: translate(-250px, 0px) rotate(1080deg) scale(2, 2) ;
+
+
+}
+
+.oddBlock:hover{
+
+	transform: translate(250px, 0px) rotate(-1080deg) scale(0.5, 0.5) ;
+
+
+}
