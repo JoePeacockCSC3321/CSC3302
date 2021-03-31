@@ -1,0 +1,41 @@
+body
+{
+   margin-top: 200px; 
+}
+
+section
+{
+    text-align: center;
+}
+
+.rules
+{
+    word-wrap: normal;
+    margin-left: auto;
+}
+
+.prompt
+{
+    font-family: Helvectia, sans-serif;
+    font-size: 50;
+}
+
+.container
+{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px; /* 3 100px * 3 = 300, + 2px border for each */
+    margin: auto;
+}
+
+.square
+{ 
+    width: 100px; 
+    height: 100px;
+    border: 1px solid white;
+    background-color: blueviolet;
+    font-size: 50px;
+    line-height: 100px;
+}
+
